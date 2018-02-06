@@ -27,7 +27,7 @@ class ItemRenameCommand extends Command implements PluginIdentifiableCommand {
 			return false;
 		}
 		if(!$sender instanceof Player) {
-			$sender->sendMessage(TF::RED . "Please run this command in-game.");
+			$sender->sendMessage(TF::RED . "Please run this command in-game!");
 			return true;
 		}
 		if(empty($args)) {
